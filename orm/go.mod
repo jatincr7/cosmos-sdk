@@ -18,7 +18,7 @@ require (
 	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.28.2-0.20230222093303-bc1253ad3743
 	gotest.tools/v3 v3.4.0
-	pgregory.net/rapid v0.5.5
+	pgregory.net/rapid v0.6.2
 )
 
 require (

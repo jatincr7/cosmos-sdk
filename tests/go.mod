@@ -26,7 +26,7 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/stretchr/testify v1.8.2
 	google.golang.org/protobuf v1.28.2-0.20230222093303-bc1253ad3743
-	gotest.tools/v3 v3.4.0
+	gotest.tools/v3 v3.5.0
 	pgregory.net/rapid v0.5.5
 )
 

@@ -13,7 +13,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.28.2-0.20230222093303-bc1253ad3743
-	gotest.tools/v3 v3.4.0
+	gotest.tools/v3 v3.5.1
 	sigs.k8s.io/yaml v1.3.0
 )
 

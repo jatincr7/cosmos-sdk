@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	cosmossdk.io/api v0.3.1
-	cosmossdk.io/core v0.6.0
+	cosmossdk.io/core v1.0.0
 	cosmossdk.io/depinject v1.0.0-alpha.3
 	github.com/cockroachdb/errors v1.9.1
 	github.com/cosmos/cosmos-proto v1.0.0-beta.2
@@ -22,6 +22,7 @@ require (
 	cosmossdk.io/errors v1.0.0-beta.7 // indirect
 	cosmossdk.io/log v0.0.0-20230306220716-5e55f56d39d5 // indirect
 	cosmossdk.io/math v1.0.0-beta.6.0.20230216172121-959ce49135e4 // indirect
+	cosmossdk.io/schema v1.0.0 // indirect
 	cosmossdk.io/store v0.0.0-20230227103508-bbe7f8a11b44 // indirect
 	cosmossdk.io/x/tx v0.2.2 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect

@@ -1,10 +1,10 @@
 module cosmossdk.io/tools/rosetta
 
-go 1.20
+go 1.23.0
 
 require (
 	cosmossdk.io/log v0.0.0-20230306220716-5e55f56d39d5
-	cosmossdk.io/math v1.0.0-beta.6.0.20230216172121-959ce49135e4
+	cosmossdk.io/math v1.5.3
 	github.com/coinbase/rosetta-sdk-go/types v1.0.0
 	github.com/cometbft/cometbft v0.37.0
 	github.com/cosmos/cosmos-sdk v0.46.0-beta2.0.20230306220716-5e55f56d39d5
@@ -12,7 +12,7 @@ require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.10.0
 	google.golang.org/grpc v1.53.0
 )
 
@@ -49,7 +49,7 @@ require (
 	github.com/cosmos/iavl v0.21.0-alpha.1 // indirect
 	github.com/cosmos/ledger-cosmos-go v0.13.0 // indirect
 	github.com/danieljoos/wincred v1.1.2 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
 	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
 	github.com/felixge/httpsnoop v1.0.2 // indirect
@@ -64,7 +64,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.1.2 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/gorilla/handlers v1.5.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
@@ -97,13 +97,13 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/petermattis/goid v0.0.0-20221215004737-a150e88a970d // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.14.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.41.0 // indirect
 	github.com/prometheus/procfs v0.9.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
-	github.com/rogpeppe/go-internal v1.9.0 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/rs/cors v1.8.3 // indirect
 	github.com/rs/zerolog v1.29.0 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
@@ -120,16 +120,15 @@ require (
 	golang.org/x/crypto v0.7.0 // indirect
 	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2 // indirect
 	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/term v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 	google.golang.org/genproto v0.0.0-20230202175211-008b39050e57 // indirect
 	google.golang.org/protobuf v1.28.2-0.20230222093303-bc1253ad3743 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.4.0 // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
 	pgregory.net/rapid v0.5.5 // indirect
-	sigs.k8s.io/yaml v1.3.0 // indirect
+	sigs.k8s.io/yaml v1.4.0 // indirect
 )

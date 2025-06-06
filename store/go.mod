@@ -1,6 +1,6 @@
 module cosmossdk.io/store
 
-go 1.20
+go 1.21.0
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
@@ -15,7 +15,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d
-	github.com/spf13/cast v1.5.0
+	github.com/spf13/cast v1.9.2
 	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/btree v1.6.0
 	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2

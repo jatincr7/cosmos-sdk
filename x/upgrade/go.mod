@@ -1,6 +1,6 @@
 module cosmossdk.io/x/upgrade
 
-go 1.20
+go 1.22
 
 require (
 	cosmossdk.io/api v0.3.1
@@ -23,7 +23,7 @@ require (
 	github.com/stretchr/testify v1.8.2
 	google.golang.org/genproto v0.0.0-20230216225411-c8e22ba71e44
 	google.golang.org/grpc v1.53.0
-	google.golang.org/protobuf v1.28.2-0.20230222093303-bc1253ad3743
+	google.golang.org/protobuf v1.36.7
 )
 
 require (
